@@ -1,0 +1,21 @@
+<div class="aboutMe" id="aboutMe">
+
+  <div class="introduction">
+    <img src="assets/img/portrait2.png">
+    <div class="right">
+      <h2>About me.</h2>
+      <span>"I'm up for any adventure and very happy that the next one is about to begin!"</span>
+    </div>
+  </div>
+
+  <img src="assets/img/line.png" class="line">
+
+  <div class="journeys">
+    <div *ngFor="let paragraph of headings; let i = index" class="journey">
+      <img src="assets/img/circle{{i}}.png">
+      <h3>{{headings[i]}}</h3>
+      <span>{{text[i]}}</span>
+    </div>
+  </div>
+
+</div>

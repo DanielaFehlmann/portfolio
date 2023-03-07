@@ -1,0 +1,32 @@
+$grey: #131111;
+
+.imprint {
+  height: calc(100vH - 326px);
+  background-color: $grey;
+  color: white;
+  padding: 40px 0 0 100px;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  a {
+    color: rgb(141, 141, 141);
+  }
+}
+
+@media (max-width: 700px) {
+  .imprint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vH - 286px);
+    padding: 0 25px 0 25px;
+  }
+}
+
+@media (max-width: 520px) {
+  .imprint {
+    height: calc(100vH - 196px);
+  }
+}

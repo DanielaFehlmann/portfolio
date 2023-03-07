@@ -1,0 +1,29 @@
+$grey: #131111;
+
+.legalNotice {
+  background-color: $grey;
+  color: white;
+  padding: 40px 100px 40px 100px;
+
+  a {
+    color: rgb(141, 141, 141);
+  }
+}
+
+@media (max-width: 700px) {
+  .legalNotice {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0 25px;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 500px) {
+  .legalNotice {
+    font-size: 14px;
+    h1 {font-size: 25px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+  }
+}

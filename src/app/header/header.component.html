@@ -1,0 +1,13 @@
+<div class="header" id="header">
+  
+  <img src="assets/img/logo.png" class="imageLogo">
+ 
+  <div class="links" [ngClass]="status ? 'menuOpened' : 'menuClosed'">
+    <a routerLink="/">HOME</a>
+    <a href="#aboutMe">ABOUT</a>
+    <a href="#myWork">PORTFOLIO</a>
+  </div>
+
+  <img src="assets/img/bar.svg" class="imageBar" (click)="clickEvent()">
+
+</div>
