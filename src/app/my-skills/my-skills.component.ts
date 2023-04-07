@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class MySkillsComponent {
 
   skills = ['Javascript', 'Angular', 'HTML / CSS', 'SCRUM', 'Git', 'Material Design', 'API', 'Firebase', 'Typescript'];
-  
+
 }

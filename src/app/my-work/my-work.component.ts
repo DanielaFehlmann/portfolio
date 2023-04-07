@@ -10,28 +10,28 @@ export class MyWorkComponent {
   works = [{
     heading: 'El Pollo Loco',
     subtitle: 'Javascript based jump and run game',
-    link: 'https://daniela-fehlmann.developerakademie.net/elpolloloco/ ',
+    link: 'https://daniela-fehlmann.at/elpolloloco/index.html',
     github: 'https://github.com/DanielaFehlmann/elpolloloco',
     type: 'js'
   },
   {
     heading: 'Join',
-    subtitle: 'javascript based group work (project management tool)',
-    link: 'https://daniela-fehlmann.developerakademie.net/Join/',
+    subtitle: 'javascript based project management tool (group work)',
+    link: 'https://daniela-fehlmann.at/join/',
     github: 'https://github.com/DanielaFehlmann/Join',
     type: 'js'
   },
   {
-    heading: 'Ring of fire',
-    subtitle: 'angular based card game',
-    link: 'https://ring-of-fire-e6ce7.web.app/',
-    github: 'https://github.com/DanielaFehlmann/ringoffire',
+    heading: 'slack-clone',
+    subtitle: 'angular based messaging app (group work)',
+    link: 'https://daniela-fehlmann.at/slack-clone',
+    github: 'https://github.com/DanielaFehlmann/slack-clone',
     type: 'ang'
   },
   {
     heading: 'Pokedex',
     subtitle: 'javascript based pokedex (worked with APIs)',
-    link: 'https://daniela-fehlmann.developerakademie.net/Pokedex/',
+    link: 'https://daniela-fehlmann.at/pokedex/index.html',
     github: 'https://github.com/DanielaFehlmann/pokedex',
     type: 'js'
   }];
