@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import AOS from "aos";
 
 @Component({
   selector: 'app-main-page',
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit{
 
 ngOnInit(): void {
-
+  AOS.init();
 }
 
 }

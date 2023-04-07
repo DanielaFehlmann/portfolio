@@ -10,7 +10,7 @@
 
   <div class="works">
 
-    <div *ngFor="let work of works; let i = index" class="container" [class.d-none] = "(button == 1 && works[i]['type'] == 'js') || (button == 2 && works[i]['type'] == 'ang')">
+    <div *ngFor="let work of works; let i = index" class="container" [class.d-none] = "(button == 1 && works[i]['type'] == 'js') || (button == 2 && works[i]['type'] == 'ang')" data-aos="flip-right">
 
       <img src="assets/img/{{i}}.png" class="imageWork">
 
