@@ -91,6 +91,14 @@ form {
   }
 }
 
+.mail {
+  text-decoration: none;
+
+  &:hover {
+    filter: brightness(1.15);
+  }
+}
+
 .emailSent {
   display: flex !important;
   justify-content: center;
