@@ -40,6 +40,16 @@
   
 }
 
+@media (min-width: 2200px) {
+  .security a {
+    font-size: 22px;
+  }
+
+  .logos img {
+    height: 50px;
+  }
+}
+
 @media (max-width: 1000px) {
   .logos{
     a:nth-child(1), a:nth-child(2) {

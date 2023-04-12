@@ -76,6 +76,25 @@ button {
   }
 }
 
+@media (min-width: 2200px) {
+  .introductionLeftText {
+    font-size: 90px;
+    line-height: 130px;
+  }
+
+  .imagePortrait {
+    height: 500px;
+    width: 500px;
+  }
+
+  button {
+    height: 117px;
+    width: 450px;
+    margin-top: 100px;
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 1300px) {
   .introductionLeftText {
     font-size: 54px;

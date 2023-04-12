@@ -47,6 +47,29 @@ $grey: #131111;
   height: 69px;
 }
 
+@media (min-width: 2200px) {
+  .mySkills h2 {
+    font-size: 46px;
+  }
+
+  .skills {
+    height: 653px;
+    width: 806px;
+    font-size: 24px;
+  }
+
+  .skill {
+    height: 156px;
+    width: 238px;
+  }
+
+  .icon {
+    top: calc(-50% + 39px);
+    left: calc(50% - 44.85px);
+    height: 90px;
+  }
+}
+
 @media (max-width: 900px) {
   .skills {
     height: 395px;

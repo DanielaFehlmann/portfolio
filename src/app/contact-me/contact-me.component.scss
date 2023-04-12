@@ -54,9 +54,10 @@ form {
   textarea {
     height: 179px;
     margin-bottom: 24px;
+    padding-top: 16px;
     resize: none;
     white-space: pre;
-    line-height: 44px;
+    line-height: 28px;
   }
 
   input:focus, textarea:focus {
@@ -132,6 +133,45 @@ form {
   }
   100% {
     left: -250px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .contactMe h2 {
+    font-size: 76px;
+  }
+
+  .emailText {
+    font-size: 22px;
+  }
+
+  .container {
+    width: 800px;
+  }
+
+  form {
+    span {
+      font-size: 22px;
+    }
+  
+    input {
+      height: 56px;
+    }
+  
+    textarea {
+      height: 200px;
+    }
+  
+    input, textarea {
+      font-size: 22px;
+    }
+  
+    button {
+      height: 72px;
+      width: 189px;
+      font-size: 22px;
+      margin-left: calc(100% - 189px);
+    }
   }
 }
 

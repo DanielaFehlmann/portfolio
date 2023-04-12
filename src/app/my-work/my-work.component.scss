@@ -62,16 +62,6 @@ $turquoise: #2DFCD8;
   height: 365px;
   width: 440px;
   margin: 20px;
-  animation: slide 2s ease-in-out;
-}
-
-@keyframes slide {
-  from {
-   
-  }
-  to {
-    position: relative;
-  }
 }
 
 .moreInfo {
@@ -133,6 +123,22 @@ $turquoise: #2DFCD8;
 
 .d-none {
   display: none;
+}
+
+@media (min-width: 2200px) {
+  .myWork h2 {
+    font-size: 46px;
+  }
+
+  .buttons {
+    width: 520px;
+
+    button {
+      font-size: 24px;
+      height: 91px;
+      width: 166px;
+    }
+  }
 }
 
 @media (min-width: 1450px) {

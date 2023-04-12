@@ -82,6 +82,46 @@ $grey: #131111;
   }
 }
 
+@media (min-width: 2200px) {
+  .introduction img{
+    height: 300px;
+    width: 300px;
+  }
+
+  .right { 
+    h2 {
+      font-size: 46px;
+    }
+  
+    span {
+      width: 520px;
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+
+  .journey {
+    width: 270px;
+  
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  
+    h3 {
+      margin: 22px 0 12px 0;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  
+    span {
+      line-height: 32px;
+      font-size: 22px;
+      font-weight: 300;
+    }
+  }
+}
+
 @media (max-width: 1250px) {
   .journeys {
     margin: 100px 70px 0 70px;
