@@ -262,6 +262,11 @@ form {
   .container {
     width: 280px;
   }
+
+  .mail::before {
+    content: "\A";
+    white-space: pre;
+  }
 }
 
 @media (max-width: 330px) {

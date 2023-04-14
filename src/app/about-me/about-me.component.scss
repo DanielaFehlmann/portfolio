@@ -49,6 +49,7 @@ $grey: #131111;
 .journeys {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 100px 55px 0 55px;
 }
 
@@ -57,8 +58,8 @@ $grey: #131111;
   flex-direction: column;
   align-items: center;
   color: white;
-  margin-bottom: 224px;
-  width: 230px;
+  margin-bottom: 124px;
+  width: 400px;
   margin-left: 45px;
   margin-right: 45px;
 
@@ -71,7 +72,13 @@ $grey: #131111;
     margin: 22px 0 12px 0;
     font-size: 18px;
     font-weight: 400;
-    
+    color: $turquoise;
+    text-align: center;
+  }
+
+  hr {
+    width: 100px;
+    color: grey;
   }
 
   span {
@@ -101,8 +108,6 @@ $grey: #131111;
   }
 
   .journey {
-    width: 270px;
-  
     img {
       height: 100px;
       width: 100px;
@@ -140,7 +145,6 @@ $grey: #131111;
 
   .journey {
     margin-bottom: 60px;
-    width: 400px;
   }
 
   .right span {
@@ -161,6 +165,12 @@ $grey: #131111;
 
   .right span{
     width: 300px;
+  }
+}
+
+@media (max-width: 880px) {
+  .journey {
+    width: 400px;
   }
 }
 
@@ -185,10 +195,6 @@ $grey: #131111;
   .journeys {
     margin-top: 50px;
   }
-
-  .journey {
-    margin-bottom: 30px;
-  }
 }
 
 
@@ -200,6 +206,17 @@ $grey: #131111;
 
   .introduction img{
     margin-top: 0;
+  }
+
+  .journey {
+    h3, span {
+      font-size: 16px;
+    }
+    
+    img {
+      height: 70px;
+      width: 70px;
+    }
   }
 }
 

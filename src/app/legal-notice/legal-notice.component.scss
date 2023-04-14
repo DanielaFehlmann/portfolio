@@ -5,6 +5,19 @@ $grey: #131111;
   color: white;
   padding: 40px 100px 40px 100px;
 
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  hr {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
   a {
     color: rgb(141, 141, 141);
   }

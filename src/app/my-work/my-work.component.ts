@@ -16,21 +16,21 @@ export class MyWorkComponent {
   },
   {
     heading: 'Join',
-    subtitle: 'javascript based project management tool (group work)',
+    subtitle: 'Javascript based project management tool (group work)',
     link: 'https://daniela-fehlmann.at/join/',
     github: 'https://github.com/DanielaFehlmann/Join',
     type: 'js'
   },
   {
     heading: 'slack-clone',
-    subtitle: 'angular based messaging app (group work)',
+    subtitle: 'Angular based messaging app (group work)',
     link: 'https://daniela-fehlmann.at/slack-clone',
     github: 'https://github.com/DanielaFehlmann/slack-clone',
     type: 'ang'
   },
   {
     heading: 'Pokedex',
-    subtitle: 'javascript based pokedex (worked with APIs)',
+    subtitle: 'Javascript based pokedex (worked with APIs)',
     link: 'https://daniela-fehlmann.at/pokedex/index.html',
     github: 'https://github.com/DanielaFehlmann/pokedex',
     type: 'js'
