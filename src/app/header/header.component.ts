@@ -11,7 +11,6 @@ status: boolean = false;
 
   clickEvent() {
     this.status = !this.status;
-    console.log(this.status)
   }
 
 }
