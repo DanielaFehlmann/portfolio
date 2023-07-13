@@ -15,7 +15,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { CatsComponent } from './cats/cats.component';
 
+
+import 'bootstrap';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 @NgModule({
@@ -31,15 +35,18 @@ import { MainPageComponent } from './main-page/main-page.component';
     LegalNoticeComponent,
     ImprintComponent,
     MainPageComponent,
-
+    CatsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}

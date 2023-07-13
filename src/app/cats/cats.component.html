@@ -1,0 +1,15 @@
+
+<div class="bg-dark vh-100 d-flex flex-column justify-content-between">
+
+  <select class="custom-select bg-dark text-white mt-5 ms-3 w-25 rounded" [(ngModel)]="chosenCat">
+    <option value="1" selected>Stella</option>
+    <option value="2">Goldie</option>
+    <option value="3">Beide</option>
+  </select>
+
+  <h4 class="text-white ms-3">Klick auf ein Bild!</h4>
+  <ng-image-slider *ngIf="chosenCat == '1'" [images]="stella" #nav></ng-image-slider>
+  <ng-image-slider *ngIf="chosenCat == '2'" [images]="goldie" #nav></ng-image-slider>   
+  <ng-image-slider *ngIf="chosenCat == '3'" [images]="both" #nav></ng-image-slider>
+
+</div>
