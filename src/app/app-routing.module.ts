@@ -8,7 +8,7 @@ import { CatsComponent } from './cats/cats.component';
 
 
 const routes: Routes = [
-  // {path: '', component: MainPageComponent},
+  {path: '', component: CatsComponent},
   {path: 'imprint', component: ImprintComponent},
   {path: 'legal-notice', component: LegalNoticeComponent},
   {path: 'cats', component: CatsComponent},
